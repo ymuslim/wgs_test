@@ -1,0 +1,29 @@
+﻿@model System.Data.DataTable
+@{
+    ViewBag.Title = "Index";
+}   
+<div class="panel-heading">
+    <a href="@Url.Action("Create","Invoice")"><input type="submit" value="Add" class="btn btn-primary" /></a>
+</div>
+<div class="form-horizontal">
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>Item</th>
+            <th>Weight(Kg)</th>
+            <th>QTY</th>
+            <th>Unit Price</th>
+            <th>Total</th>
+        </tr>
+        @for (int i = 0; i < Model.Rows.Count; i++)
+        {
+            <tr>
+                <td>@Model.Rows[i][1]</td>
+                <td>@Model.Rows[i][2]</td>
+                <td>@Model.Rows[i][3]</td>
+                <td>@Model.Rows[i][4]</td>
+                <td>@Model.Rows[i][5]</td>
+            </tr>
+        }
+
+    </table>
+</div>
