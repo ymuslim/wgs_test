@@ -11,3 +11,6 @@ Berikut point - point yang harus dikerjakan
 8. Buat github public, link github tolong dishare di email sebelum mulai mengerjakan
 
 Total waktu yang di butuhkan 4 jam atau 230 menit.
+
+Berikut point - point yang sudah dikerjakan:
+1. Tampilan HTML/CSS, nilai plus jika pakai Bootstrap (waktu 50 menit)
